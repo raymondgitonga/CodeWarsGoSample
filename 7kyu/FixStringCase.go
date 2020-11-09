@@ -1,7 +1,6 @@
 package _kyu
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -32,8 +31,6 @@ func solve(str string) string {
 			upper += 1
 		}
 	}
-
-	fmt.Println(upper, lower)
 
 	if lower == upper || lower > upper {
 		return strings.ToLower(str)
